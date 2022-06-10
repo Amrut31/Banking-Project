@@ -18,6 +18,7 @@ public class BaseClass {
 		{
 			WebDriverManager.firefoxdriver().setup();
 			System.setProperty("webdriver.getcko.driver", "src\\ main\\resources\\Browsers\\geckodriver-v0.31.0-win64");			
+			
 		    driver = new FirefoxDriver();	
 		}
 		 			
