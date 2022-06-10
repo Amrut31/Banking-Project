@@ -33,6 +33,7 @@ public class VerifyUserCanAddFundToAccount {
 	public void beforeMethod()
 	{
 		lp = new Login_Page(driver);
+		
 		hp = new Home_Page(driver);
 	}
 	
